@@ -9,13 +9,13 @@ import javax.swing.DefaultComboBoxModel;
  *
  * @author Alex JGT
  */
-public class MapaDeGrafos extends javax.swing.JFrame {
+public class MapaDeGrafo extends javax.swing.JFrame {
     
     private Ciudades ciudades;
     private Ciudades comboUno;
     private boolean actualizado = false;
 
-    public MapaDeGrafos() {        
+    public MapaDeGrafo() {        
         initComponents();
         
         //Asignamos los valores al comboBox inicio y destino
@@ -172,14 +172,12 @@ public class MapaDeGrafos extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jComboInicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboInicioActionPerformed
-
+        //TODO    
+        
         
         
     }//GEN-LAST:event_jComboInicioActionPerformed
-
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -194,20 +192,20 @@ public class MapaDeGrafos extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(MapaDeGrafos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MapaDeGrafo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(MapaDeGrafos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MapaDeGrafo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(MapaDeGrafos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MapaDeGrafo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(MapaDeGrafos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MapaDeGrafo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new MapaDeGrafos().setVisible(true);
+                new MapaDeGrafo().setVisible(true);
             }
         });
     }

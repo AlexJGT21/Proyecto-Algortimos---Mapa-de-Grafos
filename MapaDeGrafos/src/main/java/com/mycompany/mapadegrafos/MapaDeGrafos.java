@@ -1,6 +1,8 @@
 
 package com.mycompany.mapadegrafos;
 
+import Presentacion.MapaDeGrafo;
+
 /**
  *
  * @author Alex JGT
@@ -8,6 +10,8 @@ package com.mycompany.mapadegrafos;
 public class MapaDeGrafos {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        MapaDeGrafo mapaGrafos = new MapaDeGrafo();
+        mapaGrafos.setVisible(true);        
     }
 }
