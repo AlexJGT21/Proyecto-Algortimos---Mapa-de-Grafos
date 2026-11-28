@@ -6,7 +6,6 @@ package Componentes;
  * @author AlexJGT
  */
 public enum Ciudades {
-    
     ACONCHI,
     AGUA_PRIETA,
     ALAMOS,

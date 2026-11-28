@@ -2,6 +2,7 @@
 package Presentacion;
 
 import Componentes.Ciudades;
+import Componentes.Mapa;
 import java.awt.event.ItemEvent;
 import javax.swing.DefaultComboBoxModel;
 
@@ -14,6 +15,7 @@ public class MapaDeGrafo extends javax.swing.JFrame {
     private Ciudades ciudades;
     private Ciudades comboUno;
     private boolean actualizado = false;
+    Mapa m = new Mapa(1, 5);
 
     public MapaDeGrafo() {        
         initComponents();

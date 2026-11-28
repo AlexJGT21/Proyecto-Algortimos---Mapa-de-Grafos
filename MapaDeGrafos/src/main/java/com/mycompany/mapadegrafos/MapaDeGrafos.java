@@ -13,5 +13,6 @@ public class MapaDeGrafos {
         
         MapaDeGrafo mapaGrafos = new MapaDeGrafo();
         mapaGrafos.setVisible(true);        
+        
     }
 }
